@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #d4f8ff;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#errormsg {
+    font-family: Arial, sans-serif;
+    color: red;
+    font-size: 25px;
+}
+
+span {
+    font-size: 18px;
+    color: #555;
+}
+
+fieldset span {
+    display: block;
+    margin-bottom: 10px;
+}
+
+form span {
+    margin-top: 10px;
+}
+
+form {
+    background-color: #a0ccff;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+}
+
+fieldset {
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
+legend {
+    font-size: 24px;
+    font-weight: bold;
+    color: #000a97;
+    margin-bottom: 10px;
+}
+
+input[type="text"], 
+input[type="email"], 
+input[type="password"], 
+input[type="date"] {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #2356ff;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+input[type="radio"] {
+    margin: 0 10px;
+}
+
+input[type="submit"], 
+input[type="reset"] {
+    background-color: #2382ff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+input[type="submit"]:hover, 
+input[type="reset"]:hover {
+    background-color: #0330c6;
+}
+
+
+

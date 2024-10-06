@@ -1,0 +1,206 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #d4f8ff;
+    margin: 0;
+    padding: 20px 0; /* เพิ่ม padding ด้านบนและด้านล่าง */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* ให้ความสูงขั้นต่ำเป็น 100% ของ viewport */
+}
+
+.flexcontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    padding: 20px; /* เพิ่ม padding เพื่อไม่ให้ชิดขอบ */
+}
+
+.container {
+    text-align: center;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    max-width: 800px;
+    margin: 20px 0; /* เพิ่ม margin ด้านบนและล่าง */
+}
+
+
+header {
+    background-color: #2382ff;
+    color: white;
+    padding: 10px;
+    border-radius: 5px; /* ขอบมนของ header */
+}
+
+header h1 {
+    margin: 0;
+}
+
+.profile-pic {
+    margin: 20px 0;
+}
+
+.profile-pic img {
+    width: 150px;
+    border-radius: 50%;
+    border: 2px solid #2356ff;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    flex-wrap: wrap; /* ทำให้ยืดหยุ่นต่อขนาดหน้าจอ */
+}
+
+section {
+    background-color: #a0ccff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 20px;
+    flex: 1;
+    min-width: 250px; /* ความกว้างขั้นต่ำสำหรับแต่ละคอลัมน์ */
+}
+
+h2 {
+    color: #000a97;
+}
+
+.skills, .hobbies, .interests {
+    list-style: none;
+    padding: 0;
+}
+
+.skills li, .hobbies li, .interests li {
+    margin: 5px 0;
+    padding: 10px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.term_list {
+    margin: 20px 0; /* ระยะห่างด้านบนและด้านล่าง */
+    padding: 10px;
+    background-color: #f9f9f9; /* พื้นหลังของ term_list */
+    border-radius: 10px; /* ขอบมน */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* เงา */
+    text-align: left; /* จัดข้อความให้เรียงซ้าย */
+}
+
+.term_list a {
+    display: block; /* ให้ลิงค์แต่ละอันแสดงในบรรทัดใหม่ */
+    color: #2382ff; /* สีของลิงค์ */
+    text-decoration: none; /* ไม่มีเส้นขีดใต้ */
+    margin: 5px 0; /* ระยะห่างระหว่างลิงค์ */
+    padding: 10px; /* ระยะห่างภายในลิงค์ */
+    border-radius: 5px; /* ขอบมน */
+    transition: background-color 0.3s; /* เอฟเฟกต์เมื่อเอาเมาส์ไปวาง */
+}
+
+.term_list a:hover {
+    background-color: #e0f0ff; /* เปลี่ยนสีพื้นหลังเมื่อเมาส์อยู่บนลิงค์ */
+}
+
+.bold {
+    font-weight: bold; /* ทำให้ข้อความตัวหนา */
+}
+.sns_area {
+    margin: 20px 0; /* ระยะห่างด้านบนและด้านล่าง */
+    display: flex; /* ใช้ Flexbox */
+    justify-content: space-around; /* จัดเรียงลิงค์ให้มีระยะห่างเท่าๆ กัน */
+    flex-wrap: wrap; /* ทำให้ลิงค์สามารถอยู่ในบรรทัดถัดไปได้ */
+}
+
+.btn_sns {
+    background-color: #2382ff; /* พื้นหลังของปุ่ม */
+    color: white; /* สีข้อความ */
+    padding: 10px 15px; /* ระยะห่างภายในปุ่ม */
+    border-radius: 5px; /* ขอบมน */
+    text-decoration: none; /* ไม่มีเส้นขีดใต้ */
+    transition: background-color 0.3s; /* เอฟเฟกต์เมื่อเอาเมาส์ไปวาง */
+}
+
+.btn_sns:hover {
+    background-color: #0330c6; /* เปลี่ยนสีเมื่อเมาส์อยู่บนปุ่ม */
+}
+.btn_sns i {
+    margin-right: 5px; /* ระยะห่างระหว่างไอคอนและข้อความ */
+    font-size: 18px; /* ขนาดไอคอน */
+    vertical-align: middle; /* จัดแนวไอคอนให้ตรงกลาง */
+}
+
+.gallery {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.gallery-container {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.gallery-container img {
+    width: 100%; /* ทำให้ภาพแต่ละภาพมีความกว้าง 100% */
+    flex-shrink: 0; /* ทำให้ภาพแต่ละภาพไม่หดตัว */
+}
+
+.gallery-controls {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.gallery-controls button {
+    padding: 10px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.btn_project {
+    display: inline-block;
+    background-color: #2382ff;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 18px;
+    transition: background-color 0.3s;
+}
+
+.btn_project:hover {
+    background-color: #0330c6;
+}
+
+.project-button {
+    margin-top: 20px; /* ระยะห่างด้านบนจากเนื้อหาอื่น */
+    text-align: center; /* จัดปุ่มให้อยู่กึ่งกลาง */
+}
+
+.btn_project i {
+    margin-right: 8px; /* ระยะห่างระหว่างไอคอนกับข้อความ */
+    font-size: 18px; /* ขนาดของไอคอน */
+    vertical-align: middle; /* จัดแนวไอคอนให้อยู่กึ่งกลาง */
+}
+
+.btn_project {
+    background-color: #2382ff;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    display: block;
+    margin: 10px 0;
+    font-size: 16px;
+    transition: background-color 0.3s;
+    text-align: center;
+}
+
+.btn_project:hover {
+    background-color: #0330c6;
+}

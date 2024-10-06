@@ -1,0 +1,93 @@
+h1{
+    background-color:rgb(79, 229, 255);
+    color: rgb(0, 0, 0);
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    margin-left: 25px;
+    padding-left: 25px;
+}
+
+h2{
+    background-color:rgb(79, 229, 255);
+    color: rgb(0, 0, 0);
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    margin-left: 25px;
+    padding-left: 25px;
+}
+
+body{
+    background-color: #d5faff;
+}
+.flex_container{
+    display: flex;
+    flex-direction: row;
+}
+
+.flex_container2 {
+    display: flex;
+    padding-right: 0px;
+}
+/* .flex_Pic{
+    display: flex;
+    
+} */
+
+ul{
+    font-family: Garamond, "Times New Roman", serif; 
+    font-size: 20pt;
+    font-weight: bold;
+    font-style: italic;
+    margin-right: 50px;
+    margin-left: 50px;
+    width: 1000px;
+}
+
+table{
+    font-family: Garamond, "Times New Roman", serif; 
+    font-size: 15pt;
+    font-weight: bold;
+    font-style: italic;
+    margin-right: auto;
+    width: 1000px;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+.div_display{
+    border: 2px solid turquoise;
+    width: 100%;
+    display: flex;
+}
+
+#pic1{
+    height: 500px;
+}
+
+#pic2{
+    height: 500px;
+    padding-right: 25px;
+    padding-left: 25px;
+}
+
+.Parent{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: left;
+
+}
+
+.pic_display{
+    display: inline-block;
+}
+
+a:link{
+	color: #00a71c; 
+}
+a:visited{
+	color: #00e1ff; 
+} 
+a:hover{ 
+	color: #fbff00; 
+} 
+
+.center{
+    text-align: center;
+}
