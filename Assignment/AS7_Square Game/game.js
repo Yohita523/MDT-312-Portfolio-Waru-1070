@@ -14,10 +14,11 @@ function startGame(){
 
 function timeStart(){
     var TIMER_TICK = 1000;
+    var timer = null;
     var min = 0.5;
     var second = min * 60; 
     var x = document.getElementById('clock');
-    var timer = setInterval(timeCount, TIMER_TICK);
+    timer = setInterval(timeCount, TIMER_TICK);
     
     function timeCount(){
         second -= 1;
