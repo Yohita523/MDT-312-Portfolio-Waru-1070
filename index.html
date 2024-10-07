@@ -6,7 +6,7 @@
     <title>Portfolio | Warud Seso</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <script src="gallery.js"></script>
+    <script src="script.js"></script>
 </head>
 <body>
     
@@ -19,6 +19,21 @@
             <header>
                 <h1>Warud Seso | Portfolio</h1>
             </header>
+
+            <div>
+                <fieldset>
+                    <legend>About Me</legend>
+                    <div id="About_me">
+            
+                    </div>
+                    <div class="Link_btn">
+                        <a href="https://media.kmutt.ac.th/media-technology/" target="_blank">
+                            <button>MEDIA TECHNOLOGY</button>
+                        </a>
+                    </div>
+                </fieldset>
+            </div>
+            
 
             <div class="content">
                 <section>
@@ -50,6 +65,29 @@
             </div>
 
             <section>
+                <fieldset>
+                    <legend><div class="btn_text">ผลงานวิดีโอ</div></legend>
+                    <div class="gallery">
+                        <div class="video-gallery">
+                            <iframe 
+                                src="https://www.youtube.com/embed/8LCjoRA2xR0" 
+                                frameborder="0" 
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                                allowfullscreen>
+                            </iframe>
+                            <iframe 
+                                src="https://www.youtube.com/embed/29_gXQSljpA" 
+                                frameborder="0" 
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                                allowfullscreen>
+                            </iframe>
+                        </div>
+                    </div>
+                </fieldset>
+            </section>
+            
+
+            <section>
                 <h2>ผลงานกราฟิก</h2>
                 <div class="gallery">
                     <div class="gallery-container">
@@ -61,31 +99,30 @@
                     </div>
                 </div>
                 <div class="gallery-controls">
-                    <button id="prev">←</button>
-                    <button id="next">→</button>
+                    <button id="prev"><i class= "fas fa-arrow-left"></i></button>
+                    <button id="next"><i class = "fas fa-arrow-right"></i></button>
                 </div>
 
                 <div class="project-button">
-                    <a href="project.html" class="btn_project">
-                        <i class="fas fa-file-alt"></i> ผลงานเพิ่มเติม
+                    <a href="project.html" class="btn_project_Index">
+                        <i class="fas fa-file-alt"></i> ผลงานเว็ปไซต์
                     </a>
                 </div>
-
             </section>
-
-            <div class="sns_area">
-                <a href="https://www.instagram.com/rinyachanai" target="_blank" class="btn_sns btn_instagram">
-                    <i class="fab fa-instagram"></i> <span>Instagram</span>
-                </a>
-                <a href="https://www.youtube.com/@yohitapolass9790" target="_blank" class="btn_sns btn_youtube">
-                    <i class="fab fa-youtube"></i> <span>Youtube</span>
-                </a>
-                <a href="https://www.facebook.com/profile.php?id=100081628011490" target="_blank" class="btn_sns btn_facebook">
-                    <i class="fab fa-facebook-f"></i> <span>Facebook</span>
-                </a>
-            </div>
-
-            
+            <fieldset>
+                <legend>Contact</legend>
+                <div class="sns_area">
+                    <a href="https://www.instagram.com/rinyachanai" target="_blank" class="btn_sns btn_instagram">
+                        <i class="fab fa-instagram"></i> <span>Instagram</span>
+                    </a>
+                    <a href="https://www.youtube.com/@yohitapolass9790" target="_blank" class="btn_sns btn_youtube">
+                        <i class="fab fa-youtube"></i> <span>Youtube</span>
+                    </a>
+                    <a href="https://www.facebook.com/profile.php?id=100081628011490" target="_blank" class="btn_sns btn_facebook">
+                        <i class="fab fa-facebook-f"></i> <span>Facebook</span>
+                    </a>
+                </div>
+            </fieldset>
         </div>
     </div>
 </body>
