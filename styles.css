@@ -234,6 +234,11 @@ h2 {
     margin-bottom: 10px;
     
 }
+.Project{
+    background-color: #a0ccff;
+    min-width: 800px;
+    
+}
 
 .project-preview {
     width: 100%;
@@ -245,6 +250,14 @@ h2 {
 }
 
 @media only screen and (max-width: 750px) {
+    .project-thumbnail {
+        width: 100%;
+        max-width: 300px; 
+        height: auto;
+        border-radius: 5px;
+        margin-bottom: 10px;
+        
+    }
     .Project{
         min-width: 500px;
         
@@ -253,6 +266,14 @@ h2 {
 }
 
 @media only screen and (max-width: 550px) {
+    .project-thumbnail {
+        width: 100%;
+        max-width: 250px; 
+        height: auto;
+        border-radius: 3px;
+        margin-bottom: 10px;
+        
+    }
     .Project{
         min-width: 350px;
         
@@ -260,11 +281,7 @@ h2 {
 
 }
 
-.Project{
-    background-color: #a0ccff;
-    min-width: 800px;
-    
-}
+
 
 .container_project {
     text-align: center;
