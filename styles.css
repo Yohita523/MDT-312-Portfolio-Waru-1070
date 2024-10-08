@@ -407,7 +407,7 @@ legend {
 .btn_text {
     display: inline-block;
     background-color: #519dff;
-    color: rgb(6, 20, 173);
+    color: rgb(255, 255, 255);
     padding: 10px 15px;
     border-radius: 5px;
     font-weight: bold;
@@ -433,3 +433,19 @@ legend {
     color: #282828;
 }
 
+
+#Ref_btn {
+    border: none;
+    background-color: #ffffff00;
+    color: rgb(72, 72, 72);
+    padding: 8px 16px;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#Ref_btn:hover {
+    background-color: #191919;
+}

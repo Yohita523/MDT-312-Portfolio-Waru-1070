@@ -27,4 +27,23 @@ window.onload = function() {
         }
     };
     xhr.send();
+
 };
+
+function showAllRefs() {
+    const references = [
+        { name: "W3Schools เพื่อ Ref ส่วนต่างๆ ของเว็ป", url: "https://www.w3schools.com \n"},
+        { name: "Black Desert Ref ส่วนของ SNS ในส่วน Contact", url: "https://blackdesert.pearlabyss.com/asia/th-TH/Main\n" },
+        { name: "CDNJS ดึง Iconต่างๆ จาก Cloudflare  ", url: "https://cdnjs.cloudflare.com\n" },
+        { name: "Reference งาน Assignment 3 - 7" ,url: ""}
+    ];
+
+    let message = "References ทั้งหมดของ Website:\n\n";
+
+    references.forEach(ref => {
+        message += `${ref.name} : ${ref.url}\n`;
+    });
+
+    alert(message);
+}
+
