@@ -32,7 +32,7 @@ window.onload = function() {
 
 function showAllRefs() {
     const references = [
-        { name: "W3Schools เพื่อ Ref ส่วนต่างๆ ของเว็ป", url: "https://www.w3schools.com \n"},
+        { name: "W3Schools เพื่อ Ref ส่วน Code และรูปแบบจัดวางของเว็ป", url: "https://www.w3schools.com \n"},
         { name: "Black Desert Ref ส่วนของ SNS ในส่วน Contact", url: "https://blackdesert.pearlabyss.com/asia/th-TH/Main\n" },
         { name: "CDNJS ดึง Iconต่างๆ จาก Cloudflare  ", url: "https://cdnjs.cloudflare.com\n" },
         { name: "Reference งาน Assignment 3 - 7" ,url: ""}

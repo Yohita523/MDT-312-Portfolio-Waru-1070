@@ -1,0 +1,151 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #d4f8ff;
+    margin: 0;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.flexcontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    padding: 20px;
+}
+
+.container_project {
+    text-align: center;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    max-width: 100%;
+    margin: 20px 0;
+}
+
+header {
+    background-color: #2382ff;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+h2 {
+    color: #000a97;
+    padding-top: 25px;
+}
+
+
+header h1 {
+    margin: 0;
+}
+
+.Project {
+    background-color: #a0ccff;
+    min-width: 800px;
+    border-radius: 10px;
+}
+
+.project-item {
+    margin-bottom: 10px;
+}
+
+.project-thumbnail {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.project-preview {
+    width: 95%;
+    height: 500px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.btn_project {
+    background-color: #2382ff;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+    text-align: left;
+}
+
+.btn_project:hover {
+    background-color: #0330c6;
+}
+
+.back-button {
+    margin-top: 20px;
+}
+
+hr {
+    border: none;
+    height: 10px;
+    background-color: #393939;
+    width: 100%;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(47, 47, 47, 0.2);
+}
+
+@media only screen and (max-width: 750px) {
+    .project-thumbnail {
+        width: 100%;
+        max-width: 300px;
+        height: auto;
+        border-radius: 5px;
+        margin-bottom: 10px;
+    }
+    .Project {
+        min-width: 500px;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .project-thumbnail {
+        width: 100%;
+        max-width: 250px;
+        height: auto;
+        border-radius: 3px;
+        margin-bottom: 10px;
+    }
+    .Project {
+        min-width: 350px;
+    }
+}
+
+@media only screen and (max-width: 370px) {
+    .project-thumbnail {
+        width: 100%;
+        max-width: 150px;
+        height: auto;
+        border-radius: 3px;
+        margin-bottom: 10px;
+    }
+    .Project {
+        min-width: 250px;
+    }
+    .container_project {
+        padding: 10px;
+    }
+}
